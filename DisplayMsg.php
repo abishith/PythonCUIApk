@@ -1,10 +1,10 @@
  <?php
-$servername = "192.241.244.177";
+$servername = "url";
 $username = "root";
-$password = "tecnics";
+$password = "password";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, "db_BP_Dmart", 3306);
+$conn = new mysqli($servername, $username, $password, "db_Name", 3306);
 
 // Check connection
 if ($conn->connect_error) 
